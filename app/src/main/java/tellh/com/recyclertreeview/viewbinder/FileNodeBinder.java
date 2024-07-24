@@ -34,7 +34,8 @@ public class FileNodeBinder extends TreeViewBinder<FileNodeBinder.ViewHolder> {
 
         public ViewHolder(View rootView) {
             super(rootView);
-            this.tvName = (TextView) rootView.findViewById(R.id.tv_name);
+
+            this.tvName = rootView.findViewById(R.id.tv_name);
         }
 
     }
