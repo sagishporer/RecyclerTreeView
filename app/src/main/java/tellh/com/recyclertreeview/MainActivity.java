@@ -108,14 +108,10 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getItemId();
-        switch (id) {
-            case R.id.id_action_close_all:
-                adapter.collapseAll();
-                break;
-            default:
-                break;
-        }
+        int itemId = item.getItemId();
+        if (itemId == R.id.id_action_close_all)
+            adapter.collapseAll();
+
         return super.onOptionsItemSelected(item);
     }
 
