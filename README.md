@@ -1,5 +1,4 @@
 # RecyclerTreeView
-[![](https://jitpack.io/v/TellH/RecyclerTreeView.svg)](https://jitpack.io/#TellH/RecyclerTreeView)</br>
 TreeView implement in Android with RecyclerView..
 
 ## Effect
@@ -11,15 +10,18 @@ root build.gradle
 ```groovy
 allprojects {
     repositories {
-        jcenter()
+        ...
         maven { url "https://jitpack.io" }
+        ...
     }
 }
 ```
 app build.gradle
 ```groovy
 dependencies {
-    compile 'com.github.TellH:RecyclerTreeView:1.2.0'
+    ....
+    implementation 'com.github.sagishporer:RecyclerTreeView:2.0.0'
+    ....
 }
 ```
 
