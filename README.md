@@ -1,4 +1,5 @@
 # RecyclerTreeView
+[![](https://jitpack.io/v/sagishporer/RecyclerTreeView.svg)](https://jitpack.io/#sagishporer/RecyclerTreeView)</br>
 TreeView implement in Android with RecyclerView..
 
 ## Effect
